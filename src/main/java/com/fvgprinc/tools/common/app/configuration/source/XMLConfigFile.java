@@ -25,12 +25,8 @@ public class XMLConfigFile extends ConfigFile {
 
     @Override
     public URL readURLFile() {
-         String str = this.getLocationFile();
-        //String str = "appProperties.xml";
-        ClassLoader loader = Thread.currentThread().getContextClassLoader();
-        // URL configURL = getClass().getResource(str);
-        String scrap = str;
-        URL configURL = loader.getResource(str);
+        String str = this.getLocationFile();
+        URL configURL = getClass().getResource(this.getLocationFile());
         
         return configURL;
     }
