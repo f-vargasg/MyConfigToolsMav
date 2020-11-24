@@ -12,6 +12,7 @@ import java.net.URL;
  */
 public class XMLConfigFile extends ConfigFile {
  //   public static final String xmlPropName = "resources/appProperties.xml";
+
     private static final XMLConfigFile instance;
 
     static {
@@ -23,10 +24,16 @@ public class XMLConfigFile extends ConfigFile {
         
     }
 
+    /**
+     * 
+     * @return
+     * @deprecated
+     */
+    @Deprecated
     @Override
     public URL readURLFile() {
-        String str = this.getLocationFile();
-        URL configURL = getClass().getResource(this.getLocationFile());
+        String locFileStr = this.getLocationFile();
+        URL configURL = this.getClass().getClassLoader().getResource(locFileStr);
         
         return configURL;
     }
@@ -36,5 +43,7 @@ public class XMLConfigFile extends ConfigFile {
     public static XMLConfigFile getInstance() {
         return instance;
     }
+
+    
     
 }
