@@ -17,11 +17,17 @@
             <version>1.10</version>
             <type>jar</type>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
         <dependency>
-            <groupId>com.fvgprinc</groupId>
-            <artifactId>MyToolsMav</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>MyDbToolsMav</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
     <properties>
