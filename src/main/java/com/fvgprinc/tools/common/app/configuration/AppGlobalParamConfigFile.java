@@ -20,7 +20,6 @@ public class AppGlobalParamConfigFile {
     }
     
     private String cfpath;
-    
 
     public String getCfpath() {
         return cfpath;
