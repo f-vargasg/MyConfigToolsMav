@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.fvgprinc.tools.common.app.configuration.source;
+package com.fvgprinc.tools.configuration;
 
-import com.fvgprinc.tools.common.app.configuration.AppConfigUtils;
-import com.fvgprinc.tools.common.app.configuration.AppGlobalParamConfigFile;
+import com.fvgprinc.tools.configuration.AppConfigUtils;
+import com.fvgprinc.tools.configuration.AppGlobalParamConfigFile;
 
 /**
  *

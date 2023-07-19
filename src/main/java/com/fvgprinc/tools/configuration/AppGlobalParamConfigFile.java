@@ -2,10 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.fvgprinc.tools.common.app.configuration;
+package com.fvgprinc.tools.configuration;
 
-import com.fvgprinc.tools.common.app.configuration.AppConfigUtils.AppConfigFileTypes;
-import com.fvgprinc.tools.common.string.MyCommonString;
+import com.fvgprinc.tools.configuration.AppConfigUtils.AppConfigFileTypes;
+import com.fvgprinc.tools.string.MyCommonString;
+
 
 /**
  * This class is a singleton class, to set parameteres required

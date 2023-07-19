@@ -2,10 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.fvgprinc.tools.common.app.configuration;
+package com.fvgprinc.tools.configuration;
 
-import com.fvgprinc.tools.common.app.configuration.source.ConfigFile;
-import com.fvgprinc.tools.common.app.configuration.source.ConfigFileFactory;
 import java.net.URL;
 
 /**
